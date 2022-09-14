@@ -1,0 +1,106 @@
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame{
+  width: 30%;
+  height: 55vh;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: blue;
+
+}
+.mach{
+  width: 92;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5vh;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.screen{
+  width: 92%;
+  height: 13vh;
+  border: 1px solid black;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+.instruct{
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+
+}
+.mainscreen{
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 900;
+  font-size: 25px;
+  font-weight: 800;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+
+
+}
+.board{
+  width: 98%;
+  height: 30vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.small{
+  width: 30%;
+  height: 6vh;
+  border: 2px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: blue;
+  box-shadow: 3px 3px 2px  blue,  -3px -3px 2px  blue;
+  background-color: white;
+}
+.enterbt{
+  width: 98%;
+  height: 98%;
+  border: 2px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  color: blue;
+  font-weight: 700;
+}
